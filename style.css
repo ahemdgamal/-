@@ -1,0 +1,102 @@
+/* إعادة تعيين الهوامش والحشو */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* تنسيق عام للصفحة */
+body {
+    font-family: 'Tajawal', Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* تنسيق العنوان */
+header {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 60px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    opacity: 0.9;
+}
+
+/* تنسيق الأقسام */
+section {
+    padding: 40px 0;
+}
+
+.about {
+    background-color: #ffffff;
+    color: #333;
+}
+
+.skills {
+    background-color: #ecf0f1;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.about p {
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+.skills ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skills li {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.skills li:hover {
+    background-color: #2980b9;
+}
+
+/* تنسيق الفوتر */
+footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #2980b9;
+}
